@@ -1,0 +1,74 @@
+i {
+    color: #004c4c;
+}
+
+.carousel-item {
+    width: 100%;
+    padding-bottom:100px !important;
+    max-height: 100vh;
+}
+
+h2 {
+    color: #828282;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Verdana,Geneva,sans-serif;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+h4 {
+    color: #828282;
+    font-size: 10px;
+    text-transform: none;
+    font-style: normal;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+p {
+    color: #828282;
+    font-size: 14px;
+    text-transform: none;
+    font-style: normal;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    opacity: 20%;
+}
+
+.item:nth-child(1) {
+    background: #ff3322;
+}
+
+.item:nth-child(2) {
+    background: #44c7f4;
+}
+
+.item:nth-child(3) {
+    background: #6e2585;
+}
+
+.item:nth-child(4) {
+    background: #ffcd00;
+}
+
+/* Changes position of caption */
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+}
+
+a {
+    color: #004c4c;
+    font-size: 20px;
+}
