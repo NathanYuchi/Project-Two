@@ -1,0 +1,112 @@
+i {
+    color: #004c4c;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 575.98px) {
+    .carousel-item {
+    width: 100vh;
+    height: 60vh;
+}
+}
+@media (min-width: 576px) and max-width: 743.98px) {
+    .carousel-item {
+    width: 100%;
+    height: 80vh;
+    }
+}
+
+@media (min-width: 744px) and (max-width: 991.98px) {
+    .carousel-item {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .carousel-item {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-item {
+        width: 100%;
+        height: 100vh;
+    }
+}
+.carousel-caption {
+    
+}
+h2 {
+    color: #828282;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Verdana,Geneva,sans-serif;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+h4 {
+    color: #828282;
+    font-size: 10px;
+    text-transform: none;
+    font-style: normal;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+p {
+    color: #828282;
+    font-size: 10px;
+    text-transform: none;
+    font-style: normal;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100vh;
+    opacity: 20%;
+}
+
+.item:nth-child(1) {
+    background: #ff3322;
+}
+
+.item:nth-child(2) {
+    background: #44c7f4;
+}
+
+.item:nth-child(3) {
+    background: #6e2585;
+}
+
+.item:nth-child(4) {
+    background: #ffcd00;
+}
+
+/* Changes position of caption */
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+}
+
+a {
+    color: #004c4c;
+    font-size: 20px;
+    margin-top: 150px;
+    padding-left: 100px;
+}
